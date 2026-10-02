@@ -2,12 +2,11 @@
 title: "Tengyue (Olivia) Zhang"
 ---
 
-PhD Student in Bioengineering · UCLA
+PhD Candidate in Bioengineering · UCLA
 
-I study multimodal learning, generative models, and computational
-pathology in the Hsu Lab at UCLA. My research explores how machine
-learning can integrate medical data and generalize across imaging
-domains.
+I am a PhD candidate in Bioengineering at UCLA, advised by Dr. William Hsu in the [Hsu Lab](https://www.hsu-lab.com/). My research focuses on multimodal learning, generative models, and computational pathology. I develop machine learning methods that combine complementary medical data and improve how models generalize across imaging domains, with applications to cancer prognosis and medical image analysis.
+
+Previously, I earned a B.S. in Computer Science and a B.A. in Gender Studies at UCLA. As an undergraduate, I worked with [Dr. William Hsu](https://www.hsu-lab.com/) on multimodal approaches to cancer prognosis and with [Dr. Demetri Terzopoulos](https://web.cs.ucla.edu/~dt/) on medical image segmentation.
 
 ## Research interests
 

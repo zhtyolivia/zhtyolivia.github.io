@@ -29,6 +29,7 @@
 }
 
 .publication-visual {
+  margin-top: 2rem;
   padding: .65rem;
   background: #f6f8fa;
   border: 1px solid #e1e7ed;
@@ -120,6 +121,6 @@
   }
 
   .publication-copy { order: 0; }
-  .publication-visual { order: 1; max-width: 330px; }
+  .publication-visual { order: 1; max-width: 330px; margin-top: 0; }
   .publication-copy h2 { font-size: 1.25rem; }
 }

@@ -5,7 +5,7 @@ page-layout: full
 
 ::: {.publications-page}
 ::: {.publications-intro}
-[All publications on Google Scholar](https://scholar.google.com/citations?user=uWzRYTwAAAAJ&hl=en) · **\* Equal contribution**
+[All publications on Google Scholar](https://scholar.google.com/citations?user=uWzRYTwAAAAJ&hl=en) · \* Equal contribution
 :::
 
 :::: {.publication-entry}
@@ -24,6 +24,7 @@ We use a latent diffusion model trained on unlabeled source and target images to
 
 ::: {.publication-links}
 [DOI](https://doi.org/10.1109/JBHI.2026.3727978){.publication-button}
+[Code](https://github.com/hsu-lab/ldm-pathology-ssda){.publication-button aria-label="Code for pathology domain adaptation"}
 :::
 :::
 ::::
@@ -44,6 +45,7 @@ Can information theory tell us how to combine medical data? We evaluated partial
 
 ::: {.publication-links}
 [DOI](https://doi.org/10.1016/j.jbi.2025.104833){.publication-button}
+[Code](https://github.com/zhtyolivia/pid-multimodal){.publication-button aria-label="Code for multimodal fusion evaluation"}
 :::
 :::
 ::::
