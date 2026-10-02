@@ -1,4 +1,4 @@
-/* Selected publications */
+/* Research and selected publications */
 .publications-page {
   max-width: 1120px;
   margin-inline: auto;
@@ -21,7 +21,7 @@
 
 .publication-entry {
   display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
   gap: 2.25rem;
   align-items: start;
   padding: 2.5rem 0;
@@ -29,7 +29,7 @@
 }
 
 .publication-visual {
-  padding: 1rem;
+  padding: .65rem;
   background: #f6f8fa;
   border: 1px solid #e1e7ed;
   border-radius: 8px;
@@ -41,6 +41,11 @@
   width: 100%;
   height: auto;
   background: white;
+}
+
+.publication-visual figcaption {
+  font-size: .75rem;
+  line-height: 1.5;
 }
 
 .publication-visual p {
@@ -116,7 +121,7 @@
   outline-offset: 4px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 599px) {
   .publication-entry {
     grid-template-columns: minmax(0, 1fr);
     gap: 1.25rem;
@@ -124,6 +129,6 @@
   }
 
   .publication-copy { order: 0; }
-  .publication-visual { order: 1; }
+  .publication-visual { order: 1; max-width: 280px; }
   .publication-copy h2 { font-size: 1.25rem; }
 }
