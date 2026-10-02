@@ -1,0 +1,19 @@
+.home-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 2rem;
+  align-items: start;
+}
+.home-portrait img {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.home-portrait p { margin: 0; }
+@media (max-width: 767px) {
+  .home-intro { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  .home-portrait { grid-row: 1; }
+  .home-portrait img { width: 180px; }
+}

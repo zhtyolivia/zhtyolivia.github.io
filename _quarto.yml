@@ -17,4 +17,5 @@ format:
     css:
       - styles-research-v3.css
       - contact.css
+      - home.css
     toc: false
