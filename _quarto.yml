@@ -14,5 +14,5 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: styles-research.css
     toc: false
