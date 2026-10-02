@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tengyue (Olivia) Zhang",
+    "section": "",
+    "text": "PhD Student in Bioengineering · UCLA\nI study multimodal learning, generative models, and computational pathology in the Hsu Lab at UCLA. My research explores how machine learning can integrate medical data and generalize across imaging domains."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Tengyue (Olivia) Zhang",
+    "section": "Research interests",
+    "text": "Research interests\n\nMultimodal learning for medical data\nGenerative models and domain adaptation\nComputational pathology and cancer prognosis"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Tengyue (Olivia) Zhang",
+    "section": "Contact",
+    "text": "Contact\nEmail · Google Scholar"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "research descriptions"
+  }
+]
