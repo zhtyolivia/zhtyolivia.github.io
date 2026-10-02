@@ -8,6 +8,13 @@ I am a PhD candidate in Bioengineering at UCLA, advised by Dr. William Hsu in th
 
 Previously, I earned a B.S. in Computer Science and a B.A. in Gender Studies at UCLA. As an undergraduate, I worked with [Dr. William Hsu](https://www.hsu-lab.com/) on multimodal approaches to cancer prognosis and with [Dr. Demetri Terzopoulos](https://web.cs.ucla.edu/~dt/) on medical image segmentation.
 
+## News
+
+- **September 3, 2026:** Advanced to PhD candidacy in Bioengineering at UCLA.
+- **August 14, 2026:** Our paper, [“Semi-Supervised Domain Adaptation with Latent Diffusion for Pathology Image Classification”](https://doi.org/10.1109/JBHI.2026.3727978), was accepted at *IEEE Journal of Biomedical and Health Informatics (JBHI)*.
+- **May 26, 2026:** Presented “Target-Aware Domain Adaptation for Pathology Image Classification via Latent Diffusion Models” at UCLA Bioengineering Research Day.
+- **February 3, 2026:** Awarded the UCLA Bioengineering Graduate Fellowship for Spring 2026.
+
 ## Research interests
 
 - Multimodal learning for medical data
