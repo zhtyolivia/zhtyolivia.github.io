@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles-research.css">
+<link rel="stylesheet" href="styles-research-v2.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -139,40 +139,27 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="publications-page">
 <div class="publications-intro">
-<p>My work explores how to combine complementary medical data and build models that generalize across imaging domains.</p>
 <p><a href="https://scholar.google.com/citations?user=uWzRYTwAAAAJ&amp;hl=en">All publications on Google Scholar</a> · <strong>* Equal contribution</strong></p>
 </div>
 <div class="publication-entry">
 <div class="publication-visual">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/pathology-domain-adaptation-overview.png"><img src="images/pathology-domain-adaptation-overview.png" class="img-fluid figure-img" alt="Latent diffusion model trained on unlabeled NLST and TCGA pathology images, conditioned on cohort, tissue preparation, and UNI features."></a></p>
-<figcaption>Latent diffusion model trained on unlabeled NLST and TCGA pathology images, conditioned on cohort, tissue preparation, and UNI features.</figcaption>
-</figure>
-</div>
-<p><a href="images/pathology-domain-adaptation-overview.png" class="figure-link">View full-size figure</a></p>
+<p><a href="images/pathology-domain-adaptation-overview.png"><img src="images/pathology-domain-adaptation-overview.png" class="img-fluid" alt="Latent diffusion model trained on unlabeled NLST and TCGA pathology images, conditioned on cohort, tissue preparation, and UNI features."></a></p>
 </div>
 <div class="publication-copy">
-<p><span class="publication-venue">2026 · Preprint</span></p>
+<p><span class="publication-venue">2026 · IEEE Journal of Biomedical and Health Informatics</span></p>
 <section id="pathology-domain-adaptation" class="level2">
 <h2 class="anchored" data-anchor-id="pathology-domain-adaptation">Semi-Supervised Domain Adaptation with Latent Diffusion for Pathology Image Classification</h2>
 <p><span class="publication-authors"><strong>Tengyue Zhang</strong>, Ruiwen Ding, Luoting Zhuang, Yuxiao Wu, Erika F. Rodriguez, William Hsu</span></p>
 <p>We use a latent diffusion model trained on unlabeled source and target images to generate pathology images that preserve tissue morphology while incorporating target-domain appearance. Adding these synthetic images to classifier training improved lung adenocarcinoma growth-pattern classification on a held-out target cohort, increasing weighted F1 from 0.611 to 0.706.</p>
 <div class="publication-links">
-<p><a href="papers/pathology-domain-adaptation.pdf" class="publication-button" aria-label="Read the pathology domain adaptation preprint PDF">Paper (PDF)</a> <a href="https://github.com/hsu-lab/ldm-pathology-ssda" class="publication-button" aria-label="Code for pathology domain adaptation">Code</a></p>
+<p><a href="https://doi.org/10.1109/JBHI.2026.3727978" class="publication-button">DOI</a></p>
 </div>
 </section>
 </div>
 </div>
 <div class="publication-entry">
 <div class="publication-visual">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/pid-evaluation-overview.png"><img src="images/pid-evaluation-overview.png" class="img-fluid figure-img" alt="Evaluation framework comparing partial information decomposition metrics with single-modality, early-fusion, and late-fusion model performance."></a></p>
-<figcaption>Evaluation framework comparing partial information decomposition metrics with single-modality, early-fusion, and late-fusion model performance.</figcaption>
-</figure>
-</div>
-<p><a href="images/pid-evaluation-overview.png" class="figure-link">View full-size figure</a></p>
+<p><a href="images/pid-evaluation-overview.png"><img src="images/pid-evaluation-overview.png" class="img-fluid" alt="Evaluation framework comparing partial information decomposition metrics with single-modality, early-fusion, and late-fusion model performance."></a></p>
 </div>
 <div class="publication-copy">
 <p><span class="publication-venue">2025 · Journal of Biomedical Informatics, 167, 104833</span></p>
@@ -181,20 +168,14 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="publication-authors"><strong>Tengyue Zhang*</strong>, Ruiwen Ding*, Kha-Dinh Luong, William Hsu</span></p>
 <p>Can information theory tell us how to combine medical data? We evaluated partial information decomposition across seven modality pairs from four biomedical cohorts. The metrics did not consistently identify the best-performing fusion strategy; we investigated parameter selection and uncertainty estimation to improve their reliability.</p>
 <div class="publication-links">
-<p><a href="papers/multimodal-fusion-evaluation.pdf" class="publication-button" aria-label="Read the multimodal fusion evaluation paper PDF">Paper (PDF)</a> <a href="https://doi.org/10.1016/j.jbi.2025.104833" class="publication-button" aria-label="Publisher page for multimodal fusion evaluation">DOI</a> <a href="https://github.com/zhtyolivia/pid-multimodal" class="publication-button" aria-label="Code for multimodal fusion evaluation">Code</a></p>
+<p><a href="https://doi.org/10.1016/j.jbi.2025.104833" class="publication-button">DOI</a></p>
 </div>
 </section>
 </div>
 </div>
 <div class="publication-entry">
 <div class="publication-visual">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/radiopathomic-fusion-overview.png"><img src="images/radiopathomic-fusion-overview.png" class="img-fluid figure-img" alt="CT-derived radiomic features and whole-slide pathology features are selected and fused for progression-free survival prediction with Cox regression."></a></p>
-<figcaption>CT-derived radiomic features and whole-slide pathology features are selected and fused for progression-free survival prediction with Cox regression.</figcaption>
-</figure>
-</div>
-<p><a href="images/radiopathomic-fusion-overview.png" class="figure-link">View full-size figure</a></p>
+<p><a href="images/radiopathomic-fusion-overview.png"><img src="images/radiopathomic-fusion-overview.png" class="img-fluid" alt="CT-derived radiomic features and whole-slide pathology features are selected and fused for progression-free survival prediction with Cox regression."></a></p>
 </div>
 <div class="publication-copy">
 <p><span class="publication-venue">2024 · SPIE Medical Imaging: Digital and Computational Pathology</span></p>
@@ -203,20 +184,14 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="publication-authors"><strong>Tengyue Zhang*</strong>, Anil Yadav*, Ruiwen Ding*, Sean Johnson, Denise Aberle, Ashley Prosper, Erika Rodriguez, Ana Cristina Araujo Lemos da Silva, William Hsu</span></p>
 <p>We combined features from CT scans and whole-slide pathology images to predict progression-free survival in 106 patients from the National Lung Screening Trial. With repeated five-fold cross-validation, the fused Cox model achieved a mean test C-index of 0.634, compared with 0.612 for radiomics alone and 0.584 for pathomics alone.</p>
 <div class="publication-links">
-<p><a href="papers/radiopathomic-fusion.pdf" class="publication-button" aria-label="Read the radiomic and pathomic fusion paper PDF">Paper (PDF)</a></p>
+<p><a href="https://doi.org/10.1117/12.3006499" class="publication-button">DOI</a></p>
 </div>
 </section>
 </div>
 </div>
 <div class="publication-entry">
 <div class="publication-visual">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/sam-acm-overview.png"><img src="images/sam-acm-overview.png" class="img-fluid figure-img" alt="Medical images pass through preprocessing and the Segment Anything Model, followed by a probability map generator and level-set active contour refinement."></a></p>
-<figcaption>Medical images pass through preprocessing and the Segment Anything Model, followed by a probability map generator and level-set active contour refinement.</figcaption>
-</figure>
-</div>
-<p><a href="images/sam-acm-overview.png" class="figure-link">View full-size figure</a></p>
+<p><a href="images/sam-acm-overview.png"><img src="images/sam-acm-overview.png" class="img-fluid" alt="Medical images pass through preprocessing and the Segment Anything Model, followed by a probability map generator and level-set active contour refinement."></a></p>
 </div>
 <div class="publication-copy">
 <p><span class="publication-venue">2024 · SPIE Medical Imaging: Computer-Aided Diagnosis</span></p>
@@ -225,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="publication-authors">Noor Nakhaei, <strong>Tengyue Zhang</strong>, Demetri Terzopoulos, William Hsu</span></p>
 <p>We combine the Segment Anything Model with a level-set active contour model to refine medical image boundaries at test time. Evaluated on skin lesion and retinal vessel datasets, the approach addresses segmentation errors in images with low contrast or artifacts without additional supervised fine-tuning of SAM.</p>
 <div class="publication-links">
-<p><a href="papers/sam-active-contours.pdf" class="publication-button" aria-label="Read the SAM active contour refinement paper PDF">Paper (PDF)</a> <a href="https://doi.org/10.1117/12.3006255" class="publication-button" aria-label="Publisher page for SAM active contour refinement">DOI</a></p>
+<p><a href="https://doi.org/10.1117/12.3006255" class="publication-button">DOI</a></p>
 </div>
 </section>
 </div>

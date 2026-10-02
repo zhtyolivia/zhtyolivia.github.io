@@ -21,7 +21,7 @@
 
 .publication-entry {
   display: grid;
-  grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 330px) minmax(0, 1fr);
   gap: 2.25rem;
   align-items: start;
   padding: 2.5rem 0;
@@ -43,21 +43,12 @@
   background: white;
 }
 
-.publication-visual figcaption {
-  font-size: .75rem;
-  line-height: 1.5;
-}
-
 .publication-visual p {
   margin-bottom: .65rem;
 }
 
 .publication-visual p:last-child {
   margin: 0;
-}
-
-.figure-link {
-  font-size: .8rem;
 }
 
 .publication-copy > p:first-child {
@@ -129,6 +120,6 @@
   }
 
   .publication-copy { order: 0; }
-  .publication-visual { order: 1; max-width: 280px; }
+  .publication-visual { order: 1; max-width: 330px; }
   .publication-copy h2 { font-size: 1.25rem; }
 }
