@@ -16,4 +16,16 @@ Previously, I earned a B.S. in Computer Science and a B.A. in Gender Studies at 
 
 ## Contact
 
-[Google Scholar](https://scholar.google.com/citations?user=uWzRYTwAAAAJ&hl=en)
+```{=html}
+<div class="contact-links" aria-label="Social profiles">
+  <a class="contact-icon" href="https://scholar.google.com/citations?user=uWzRYTwAAAAJ&amp;hl=en" aria-label="Google Scholar profile" title="Google Scholar">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+  </a>
+  <a class="contact-icon" href="https://www.linkedin.com/in/tengyue-olivia-zhang" aria-label="LinkedIn profile" title="LinkedIn">
+    <i class="bi bi-linkedin" aria-hidden="true"></i>
+  </a>
+  <a class="contact-icon" href="https://x.com/zhtyolivia?s=11" aria-label="X profile" title="X">
+    <i class="bi bi-twitter-x" aria-hidden="true"></i>
+  </a>
+</div>
+```

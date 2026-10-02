@@ -1,0 +1,35 @@
+.contact-links {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  margin-top: 1rem;
+}
+.contact-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #b8cbd9;
+  border-radius: 8px;
+  color: #185579;
+  text-decoration: none;
+}
+.contact-icon svg {
+  width: 26px;
+  height: 26px;
+  fill: currentColor;
+}
+.contact-icon .bi {
+  font-size: 25px;
+  line-height: 1;
+}
+.contact-icon:hover {
+  color: #123f59;
+  background: #edf4f8;
+  border-color: #185579;
+}
+.contact-icon:focus-visible {
+  outline: 3px solid #216c99;
+  outline-offset: 4px;
+}
