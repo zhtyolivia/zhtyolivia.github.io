@@ -25,7 +25,7 @@
     "href": "index.html#contact",
     "title": "Tengyue (Olivia) Zhang",
     "section": "Contact",
-    "text": "Contact\nEmail · Google Scholar"
+    "text": "Contact\nGoogle Scholar"
   },
   {
     "objectID": "research.html",
@@ -33,5 +33,40 @@
     "title": "Research",
     "section": "",
     "text": "research descriptions"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Selected Publications",
+    "section": "",
+    "text": "My work explores how to combine complementary medical data and build models that generalize across imaging domains.\nAll publications on Google Scholar · * Equal contribution\n\n\n\n\n\n\nLatent diffusion model trained on unlabeled NLST and TCGA pathology images, conditioned on cohort, tissue preparation, and UNI features.\n\n\nView full-size figure\n\n\n2026 · Preprint\n\n\nTengyue Zhang, Ruiwen Ding, Luoting Zhuang, Yuxiao Wu, Erika F. Rodriguez, William Hsu\nWe use a latent diffusion model trained on unlabeled source and target images to generate pathology images that preserve tissue morphology while incorporating target-domain appearance. Adding these synthetic images to classifier training improved lung adenocarcinoma growth-pattern classification on a held-out target cohort, increasing weighted F1 from 0.611 to 0.706.\n\nPaper (PDF) Code\n\n\n\n\n\n\n\n\n\nEvaluation framework comparing partial information decomposition metrics with single-modality, early-fusion, and late-fusion model performance.\n\n\nView full-size figure\n\n\n2025 · Journal of Biomedical Informatics, 167, 104833\n\n\nTengyue Zhang*, Ruiwen Ding*, Kha-Dinh Luong, William Hsu\nCan information theory tell us how to combine medical data? We evaluated partial information decomposition across seven modality pairs from four biomedical cohorts. The metrics did not consistently identify the best-performing fusion strategy; we investigated parameter selection and uncertainty estimation to improve their reliability.\n\nPaper (PDF) DOI Code\n\n\n\n\n\n\n\n\n\nCT-derived radiomic features and whole-slide pathology features are selected and fused for progression-free survival prediction with Cox regression.\n\n\nView full-size figure\n\n\n2024 · SPIE Medical Imaging: Digital and Computational Pathology\n\n\nTengyue Zhang*, Anil Yadav*, Ruiwen Ding*, Sean Johnson, Denise Aberle, Ashley Prosper, Erika Rodriguez, Ana Cristina Araujo Lemos da Silva, William Hsu\nWe combined features from CT scans and whole-slide pathology images to predict progression-free survival in 106 patients from the National Lung Screening Trial. With repeated five-fold cross-validation, the fused Cox model achieved a mean test C-index of 0.634, compared with 0.612 for radiomics alone and 0.584 for pathomics alone.\n\nPaper (PDF)\n\n\n\n\n\n\n\n\n\nMedical images pass through preprocessing and the Segment Anything Model, followed by a probability map generator and level-set active contour refinement.\n\n\nView full-size figure\n\n\n2024 · SPIE Medical Imaging: Computer-Aided Diagnosis\n\n\nNoor Nakhaei, Tengyue Zhang, Demetri Terzopoulos, William Hsu\nWe combine the Segment Anything Model with a level-set active contour model to refine medical image boundaries at test time. Evaluated on skin lesion and retinal vessel datasets, the approach addresses segmentation errors in images with low contrast or artifacts without additional supervised fine-tuning of SAM.\n\nPaper (PDF) DOI"
+  },
+  {
+    "objectID": "publications.html#pathology-domain-adaptation",
+    "href": "publications.html#pathology-domain-adaptation",
+    "title": "Selected Publications",
+    "section": "",
+    "text": "Tengyue Zhang, Ruiwen Ding, Luoting Zhuang, Yuxiao Wu, Erika F. Rodriguez, William Hsu\nWe use a latent diffusion model trained on unlabeled source and target images to generate pathology images that preserve tissue morphology while incorporating target-domain appearance. Adding these synthetic images to classifier training improved lung adenocarcinoma growth-pattern classification on a held-out target cohort, increasing weighted F1 from 0.611 to 0.706.\n\nPaper (PDF) Code"
+  },
+  {
+    "objectID": "publications.html#multimodal-fusion",
+    "href": "publications.html#multimodal-fusion",
+    "title": "Selected Publications",
+    "section": "",
+    "text": "Tengyue Zhang*, Ruiwen Ding*, Kha-Dinh Luong, William Hsu\nCan information theory tell us how to combine medical data? We evaluated partial information decomposition across seven modality pairs from four biomedical cohorts. The metrics did not consistently identify the best-performing fusion strategy; we investigated parameter selection and uncertainty estimation to improve their reliability.\n\nPaper (PDF) DOI Code"
+  },
+  {
+    "objectID": "publications.html#radiopathomic-fusion",
+    "href": "publications.html#radiopathomic-fusion",
+    "title": "Selected Publications",
+    "section": "",
+    "text": "Tengyue Zhang*, Anil Yadav*, Ruiwen Ding*, Sean Johnson, Denise Aberle, Ashley Prosper, Erika Rodriguez, Ana Cristina Araujo Lemos da Silva, William Hsu\nWe combined features from CT scans and whole-slide pathology images to predict progression-free survival in 106 patients from the National Lung Screening Trial. With repeated five-fold cross-validation, the fused Cox model achieved a mean test C-index of 0.634, compared with 0.612 for radiomics alone and 0.584 for pathomics alone.\n\nPaper (PDF)"
+  },
+  {
+    "objectID": "publications.html#sam-active-contours",
+    "href": "publications.html#sam-active-contours",
+    "title": "Selected Publications",
+    "section": "",
+    "text": "Noor Nakhaei, Tengyue Zhang, Demetri Terzopoulos, William Hsu\nWe combine the Segment Anything Model with a level-set active contour model to refine medical image boundaries at test time. Evaluated on skin lesion and retinal vessel datasets, the approach addresses segmentation errors in images with low contrast or artifacts without additional supervised fine-tuning of SAM.\n\nPaper (PDF) DOI"
   }
 ]

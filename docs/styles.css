@@ -1,1 +1,129 @@
-/* css styles */
+/* Selected publications */
+.publications-page {
+  max-width: 1120px;
+  margin-inline: auto;
+  color: #253343;
+}
+
+.publications-intro {
+  max-width: 760px;
+  margin-bottom: 2.25rem;
+}
+
+.publications-intro > p:first-child {
+  font-size: 1.12rem;
+  line-height: 1.65;
+}
+
+.publications-intro > p:last-child {
+  font-size: .9rem;
+}
+
+.publication-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 2.25rem;
+  align-items: start;
+  padding: 2.5rem 0;
+  border-top: 1px solid #dce3ea;
+}
+
+.publication-visual {
+  padding: 1rem;
+  background: #f6f8fa;
+  border: 1px solid #e1e7ed;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.publication-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: white;
+}
+
+.publication-visual p {
+  margin-bottom: .65rem;
+}
+
+.publication-visual p:last-child {
+  margin: 0;
+}
+
+.figure-link {
+  font-size: .8rem;
+}
+
+.publication-copy > p:first-child {
+  margin-bottom: .65rem;
+}
+
+.publication-venue {
+  color: #476075;
+  font-size: .84rem;
+  font-weight: 600;
+}
+
+.publication-copy h2 {
+  margin: 0 0 .9rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.35rem;
+  line-height: 1.35;
+  font-weight: 600;
+  color: #162e43;
+}
+
+.publication-authors {
+  color: #526171;
+  font-size: .87rem;
+  line-height: 1.6;
+}
+
+.publication-copy > p {
+  font-size: .96rem;
+  line-height: 1.65;
+}
+
+.publication-links p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 1.1rem 0 0;
+}
+
+.publication-button {
+  display: inline-block;
+  padding: .4rem .8rem;
+  border: 1px solid #b8cbd9;
+  border-radius: 5px;
+  color: #185579;
+  background: #fff;
+  text-decoration: none;
+  font-size: .84rem;
+  font-weight: 600;
+}
+
+.publication-button:hover {
+  background: #edf4f8;
+  border-color: #185579;
+  color: #123f59;
+}
+
+.publications-page a:focus-visible {
+  outline: 3px solid #216c99;
+  outline-offset: 4px;
+}
+
+@media (max-width: 767px) {
+  .publication-entry {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+    padding: 2rem 0;
+  }
+
+  .publication-copy { order: 0; }
+  .publication-visual { order: 1; }
+  .publication-copy h2 { font-size: 1.25rem; }
+}

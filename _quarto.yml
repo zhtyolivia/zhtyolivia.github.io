@@ -11,7 +11,7 @@ website:
       - href: research.qmd
         text: Research
       - href: publications.qmd
-        text: Publications
+        text: Selected Publications
 
 format:
   html:
